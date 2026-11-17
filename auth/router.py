@@ -10,7 +10,7 @@ from fastapi import (
 )
 from fastapi.security import OAuth2PasswordRequestForm
 from fastapi.responses import HTMLResponse
-from sqlalchemy import select
+from sqlalchemy import select, update
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from database import get_db
